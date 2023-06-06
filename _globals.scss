@@ -1,0 +1,41 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-family: 'Outfit', sans-serif;
+    background-color: $lightGray;
+    height: 100vh;
+}
+
+//flexbox
+.flex {
+    display: flex;
+
+&-fd-cl {
+    flex-direction: column;
+}
+
+&-jc-c {
+    justify-content: center;
+}
+
+&-ai-c {
+    align-items: center;
+  }
+}
+
+.for-mobile {
+    @include breakpoint-down(small){
+        padding: 0 0.625rem;
+        line-height: 1.3;
+    }
+}

@@ -1,0 +1,54 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+.flex-fd-cl {
+  flex-direction: column;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  font-size: 0.9375rem;
+}
+.container__logo img {
+  width: 18.75rem;
+  border-radius: 0.9375rem;
+}
+.container__para {
+  opacity: 0.8;
+}
+.container__para h1 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: hsl(218, 44%, 22%);
+}
+.container__para p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 550;
+}/*# sourceMappingURL=style.css.map */
